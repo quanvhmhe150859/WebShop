@@ -5,7 +5,78 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Content Remove="wwwroot\images\b1.jpg" />
+    <Content Remove="wwwroot\images\b2.jpg" />
+    <Content Remove="wwwroot\images\background_menu.jpg" />
+    <Content Remove="wwwroot\images\banner.png" />
+    <Content Remove="wwwroot\images\cc1.jpg" />
+    <Content Remove="wwwroot\images\cc2.png" />
+    <Content Remove="wwwroot\images\cc3.jpeg" />
+    <Content Remove="wwwroot\images\cc4.jpeg" />
+    <Content Remove="wwwroot\images\cc5.jpg" />
+    <Content Remove="wwwroot\images\cc6.jpg" />
+    <Content Remove="wwwroot\images\ctc1.jpg" />
+    <Content Remove="wwwroot\images\ctc2.jpg" />
+    <Content Remove="wwwroot\images\ctc3.jpg" />
+    <Content Remove="wwwroot\images\ctc4.jpg" />
+    <Content Remove="wwwroot\images\footer_bg.png" />
+    <Content Remove="wwwroot\images\hd1.jpeg" />
+    <Content Remove="wwwroot\images\hd2.jpg" />
+    <Content Remove="wwwroot\images\hd3.jpg" />
+    <Content Remove="wwwroot\images\hd4.jpeg" />
+    <Content Remove="wwwroot\images\hd5.jpg" />
+    <Content Remove="wwwroot\images\home_icon.png" />
+    <Content Remove="wwwroot\images\logo.png" />
+    <Content Remove="wwwroot\images\p1.jpeg" />
+    <Content Remove="wwwroot\images\p2.jpg" />
+    <Content Remove="wwwroot\images\p3.jpg" />
+    <Content Remove="wwwroot\images\search_icon.png" />
+    <Content Remove="wwwroot\images\shopping_cart.png" />
+    <Content Remove="wwwroot\images\slide1.png" />
+    <Content Remove="wwwroot\images\slide2.png" />
+    <Content Remove="wwwroot\images\slide3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="css\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\b1.jpg" />
+    <None Include="wwwroot\images\b2.jpg" />
+    <None Include="wwwroot\images\background_menu.jpg" />
+    <None Include="wwwroot\images\banner.png" />
+    <None Include="wwwroot\images\cc1.jpg" />
+    <None Include="wwwroot\images\cc2.png" />
+    <None Include="wwwroot\images\cc3.jpeg" />
+    <None Include="wwwroot\images\cc4.jpeg" />
+    <None Include="wwwroot\images\cc5.jpg" />
+    <None Include="wwwroot\images\cc6.jpg" />
+    <None Include="wwwroot\images\ctc1.jpg" />
+    <None Include="wwwroot\images\ctc2.jpg" />
+    <None Include="wwwroot\images\ctc3.jpg" />
+    <None Include="wwwroot\images\ctc4.jpg" />
+    <None Include="wwwroot\images\footer_bg.png" />
+    <None Include="wwwroot\images\hd1.jpeg" />
+    <None Include="wwwroot\images\hd2.jpg" />
+    <None Include="wwwroot\images\hd3.jpg" />
+    <None Include="wwwroot\images\hd4.jpeg" />
+    <None Include="wwwroot\images\hd5.jpg" />
+    <None Include="wwwroot\images\home_icon.png" />
+    <None Include="wwwroot\images\logo.png" />
+    <None Include="wwwroot\images\p1.jpeg" />
+    <None Include="wwwroot\images\p2.jpg" />
+    <None Include="wwwroot\images\p3.jpg" />
+    <None Include="wwwroot\images\search_icon.png" />
+    <None Include="wwwroot\images\shopping_cart.png" />
+    <None Include="wwwroot\images\slide1.png" />
+    <None Include="wwwroot\images\slide2.png" />
+    <None Include="wwwroot\images\slide3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
 </Project>
