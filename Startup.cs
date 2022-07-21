@@ -31,10 +31,14 @@ namespace WebShop
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World! haha");
-                });
+                //               endpoints.MapGet("/", async context =>
+                //               {
+                //                   await context.Response.WriteAsync("Hello World! haha");
+                //               });
+
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "/{controller=Home}/{action=Index}");
             });
         }
     }
